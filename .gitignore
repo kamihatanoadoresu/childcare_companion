@@ -6,6 +6,27 @@ __pycache__/
 # C extensions
 *.so
 
+# Environment variables
+.env
+
+# Data files
+data/*.json
+data/*.pkl
+data/*.faiss
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.devcontainer
+streamlit_log.txt
+.streamlit/secrets.toml
+
 # Distribution / packaging
 .Python
 build/
